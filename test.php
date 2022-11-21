@@ -3,11 +3,11 @@
 <body>
 
 <?php  
-$a = 2;
-$b = 5;
-$amt = 100000;
+$a = $_POST['num1'];
+$b = $_POST['num2'];
+$amt = $_POST['amount'];
  
-for ($x = 1; $x <= 1000000; $x++) {
+for ($x = 1; $x <= $amt; $x++) {
 
   $amt = $amt - $a - $b;
   if ($amt < "0") {
