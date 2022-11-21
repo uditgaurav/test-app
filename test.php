@@ -3,8 +3,8 @@
 <body>
 
 <?php  
-$a = $_POST['num1'];
-$b = $_POST['num2'];
+$a = $_POST['firststock'];
+$b = $_POST['secondstock'];
 $amt = $_POST['amount'];
  
 for ($x = 1; $x <= $amt; $x++) {
